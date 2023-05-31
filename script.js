@@ -101,12 +101,4 @@ document.getElementById("verify").addEventListener("click", verifySelection);
 
 // Initial render
 renderImages();
-describe("Image Selection Test", () => {
-  it("should display the Reset button after clicking an image", () => {
-    cy.visit("your_page_url"); // Replace "your_page_url" with the actual URL of your page
 
-    cy.get(".img1").first().click();
-
-    cy.get("#reset").should("be.visible");
-  });
-});
