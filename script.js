@@ -1,6 +1,6 @@
 const imageUrls = [
   "url_to_image_1",
-	"url_to_image_1",
+  "url_to_image_1",
   "url_to_image_2",
   "url_to_image_3",
   "url_to_image_4",
